@@ -1,0 +1,100 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    color: white;
+    
+    text-align: center;
+    
+    background-color: rgb(5, 3, 30);
+}
+.container{
+    height: 50vh;
+    width: 80vh;
+    margin: 0px auto;
+    /* border: 2px solid green; */
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 5px;
+    margin-top: 5px;
+    /* justify-content: center; */
+}
+.box{
+    background-color: black;
+    transition: all 0.5s;
+    border-radius: 7px;
+    /* height: 40px;
+    width: 40px; */
+}
+
+
+.navbar{
+    background-color: rgb(10, 99, 99);
+    width: 100vw;
+    height: 22vh;
+    line-height: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-top:14px;
+
+}
+
+.navbar p{
+    height: 23%;
+    margin: 11px;
+    padding:3px;
+    font-size: large;
+}
+
+.navbar #givenColor{
+    font-size: 3rem;
+    font-weight: bolder;
+    padding: 5px;
+}
+.strip{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 23px;
+    background-color: white;
+    color: rgb(10, 99, 99);
+}
+
+.strip p{
+    margin: 0px 15px;
+    font-weight: bold;
+}
+
+.strip #newColor{
+    padding:3px 3px;
+}
+.strip #newColor:hover{
+    background-color: rgb(10, 99, 99);
+    color: white;
+}
+
+.strip #result{
+    width: 20%;
+}
+
+#easy{
+    padding:3px 3px;
+}
+#easy:hover{
+    background-color: rgb(10, 99, 99);
+    color: white;
+}
+
+#hard{
+    padding: 3px 3px;
+    background-color: rgb(10, 99, 99);
+}
+
+#hard:hover{
+
+    background-color: rgb(10, 99, 99);
+    color: white;
+}
